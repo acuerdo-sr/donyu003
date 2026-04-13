@@ -202,26 +202,6 @@
           <div class="doc-card">
             <div class="doc-card-body">
               <div class="doc-name-row">
-                <span class="doc-name">雇用保険適用事業所設置届（事業主控）</span>
-                <span class="badge badge-cw">CW</span>
-              </div>
-              <div class="doc-purpose">お店が雇用保険の適用事業所として登録されていることを確認する書類です</div>
-              <div class="doc-hint">
-                <i class="fas fa-lightbulb"></i>
-                設置年月日や事業所番号の確認に使います。控えがあればPDFや写真で大丈夫です。<br />
-                ハローワーク（公共職業安定所）から交付されたものです。
-              </div>
-            </div>
-            <div class="doc-card-action">
-              <a href="PDF/sample-koyou-hoken.pdf" target="_blank" class="doc-pdf-btn">
-                <i class="fas fa-file-pdf"></i> どんな書類か見る
-              </a>
-            </div>
-          </div>
-
-          <div class="doc-card">
-            <div class="doc-card-body">
-              <div class="doc-name-row">
                 <span class="doc-name">直近3か月分の支給控除一覧表</span>
                 <span class="badge badge-cw">CW</span>
               </div>
@@ -270,17 +250,6 @@
                 </ul>
               </div>
               <div class="doc-hint" style="margin-top:10px;"><i class="fas fa-lightbulb"></i> 既存のスタッフ管理表や雇用契約書でも構いません</div>
-            </div>
-          </div>
-
-          <div class="doc-card">
-            <div class="doc-card-body">
-              <div class="doc-name-row">
-                <span class="doc-name">労働保険 保険関係成立届（控え）</span>
-                <span class="badge badge-cw">CW</span>
-              </div>
-              <div class="doc-purpose">労働保険の加入状況を確認するための書類です</div>
-              <div class="doc-hint"><i class="fas fa-search"></i> 労働基準監督署の受付印があるものをご準備ください</div>
             </div>
           </div>
 
@@ -335,6 +304,38 @@
                 <div class="doc-group-label" style="margin-top: 0;">
                   <i class="fas fa-cloud-upload-alt"></i> Chatworkで送る追加書類
                 </div>
+
+                <div class="doc-card">
+                  <div class="doc-card-body">
+                    <div class="doc-name-row">
+                      <span class="doc-name">雇用保険適用事業所設置届（事業主控）</span>
+                      <span class="badge badge-cw">CW</span>
+                    </div>
+                    <div class="doc-purpose">お店が雇用保険の適用事業所として登録されていることを確認する書類です</div>
+                    <div class="doc-hint">
+                      <i class="fas fa-lightbulb"></i>
+                      設置年月日や事業所番号の確認に使います。控えがあればPDFや写真で大丈夫です。<br />
+                      ハローワーク（公共職業安定所）から交付されたものです。
+                    </div>
+                  </div>
+                  <div class="doc-card-action">
+                    <a href="PDF/sample-koyou-hoken.pdf" target="_blank" class="doc-pdf-btn">
+                      <i class="fas fa-file-pdf"></i> どんな書類か見る
+                    </a>
+                  </div>
+                </div>
+
+                <div class="doc-card">
+                  <div class="doc-card-body">
+                    <div class="doc-name-row">
+                      <span class="doc-name">労働保険 保険関係成立届（控え）</span>
+                      <span class="badge badge-cw">CW</span>
+                    </div>
+                    <div class="doc-purpose">労働保険の加入状況を確認するための書類です</div>
+                    <div class="doc-hint"><i class="fas fa-search"></i> 労働基準監督署の受付印があるものをご準備ください</div>
+                  </div>
+                </div>
+
                 <div class="doc-card">
                   <div class="doc-card-body">
                     <div class="doc-name-row">
@@ -419,15 +420,6 @@
               </div>
               <span class="cl-badge badge badge-mail">郵送</span>
             </label>
-            <label class="cl-item" data-id="cl3">
-              <input type="checkbox" id="cl3" />
-              <span class="cl-custom-check"><i class="fas fa-check"></i></span>
-              <div class="cl-text">
-                <strong>雇用保険適用事業所設置届（事業主控）</strong>
-                <span>ハローワークから交付されたもの</span>
-              </div>
-              <span class="cl-badge badge badge-cw">CW</span>
-            </label>
             <label class="cl-item" data-id="cl4">
               <input type="checkbox" id="cl4" />
               <span class="cl-custom-check"><i class="fas fa-check"></i></span>
@@ -464,7 +456,23 @@
               </div>
               <span class="cl-badge badge badge-cw">CW</span>
             </label>
-            <label class="cl-item" data-id="cl8">
+          </div>
+
+          <!-- 特別加入の方のみ -->
+          <div class="checklist-group checklist-group-extra">
+            <div class="cl-group-title cl-group-title-extra">
+              <i class="fas fa-hard-hat"></i> 事務組合加入・経営者労災特別加入の方のみ
+            </div>
+            <label class="cl-item cl-item-extra" data-id="cl3">
+              <input type="checkbox" id="cl3" />
+              <span class="cl-custom-check"><i class="fas fa-check"></i></span>
+              <div class="cl-text">
+                <strong>雇用保険適用事業所設置届（事業主控）</strong>
+                <span>ハローワークから交付されたもの</span>
+              </div>
+              <span class="cl-badge badge badge-cw">CW</span>
+            </label>
+            <label class="cl-item cl-item-extra" data-id="cl8">
               <input type="checkbox" id="cl8" />
               <span class="cl-custom-check"><i class="fas fa-check"></i></span>
               <div class="cl-text">
@@ -473,13 +481,6 @@
               </div>
               <span class="cl-badge badge badge-cw">CW</span>
             </label>
-          </div>
-
-          <!-- 特別加入の方のみ -->
-          <div class="checklist-group checklist-group-extra">
-            <div class="cl-group-title cl-group-title-extra">
-              <i class="fas fa-hard-hat"></i> 事務組合加入・経営者労災特別加入の方のみ
-            </div>
             <label class="cl-item cl-item-extra" data-id="cl9">
               <input type="checkbox" id="cl9" />
               <span class="cl-custom-check"><i class="fas fa-check"></i></span>
